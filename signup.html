@@ -5,108 +5,9 @@
     <title>Registro</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/paper/bootstrap.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <style>
-        body{
-           background-image:url("walppaper.jpg");               
-	        background-color: #003377;
-	        background-blend-mode: multiply;
-            height: 100vh;
-            background-size: cover;
-            background-position: center;
-            color: white;
-            overflow: hidden;
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="css/estilo.css">
 
-        }
-     .html-style body {
-	 
-	background-position:center top;
-	background-size:cover;
-	background-repeat:no-repeat;	 
-	font-family:"Fira Sans";
-	font-weight:400;
-}
-
-.border-0 {
-	border:none;
-}
-
-.modal-style {
-	background-image: url("fondo.jpg");
-	background-position: center top;
-	background-size: cover;
-	
-	background-color: #388DFF;
-  background-blend-mode: multiply;
-	
-	border-radius:6px;
-}
-
-.margin-0 {
-	margin:0;
-}
-
-.modal-perspective {
-	perspective:1000px;
-}
-
-.form-style {
-	margin-left:40px;
-	margin-right:-60px;
-
-	background:white;
-	padding:20px;
-	border-radius:6px;
-	padding-right:45px;
-}
-
-.form-style input {
-	font-weight:300;
-	font-size:11px !important;
-}
-
-.form-style .form-group label {
-	font-weight:700;
-}
-
-.pt-0 {
-	padding-top:0;
-}
-
-.pb-0 {
-	padding-bottom:0;
-}
-
-.modal-style h6 {
-	margin-top:5px;
-}
-
-.text-white {
-	color:white;
-	opacity:1;
-}
-
-.mt-25vh {
-	margin-top:25vh;
-}
-
-.font-11px {
-	font-size:11px;
-}
-    
-        
-        .btn-primary{
-            width: 200px;
-        }
-
-#lab{
-	color: #0076fd;
-}
-#lab2{
-	border-bottom: 2px solid #0076fd;
-}
-    </style>
 </head>
 <body>
     <div class="container mt-25vh">
@@ -164,18 +65,7 @@
 		</div>
 	</div>
 </div>
-<script>
-    $ ('#sign-modal').on ('hidden.bs.modal', function () {
-    $ (".jumbotron").fadeIn ();
-});
-
-$ ('#sign-modal').on ('shown.bs.modal', function () {
-	$ (".jumbotron").fadeOut ();
-});
-
-$ ("#sign-modal").modal ("show");
- 
-    
+<script src="js/modal.js">    
 </script>
 </body>
 </html>
